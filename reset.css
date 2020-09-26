@@ -8,7 +8,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
  html {
-    line-height: 1.15%; /* 1 */
+    line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
   
@@ -254,7 +254,7 @@
   }
   
   /**
-   * Remove the default vertical scrollbar in IE 10+.
+   * Remove the default vertical scroll bar in IE 10+.
    */
   
   textarea {
@@ -287,7 +287,7 @@
    */
   
   [type="search"] {
-    -webkit-appearance: textfield; /* 1 */
+    /*-webkit-appearance: textfield; / 1 */
     outline-offset: -2px; /* 2 */
   }
   
