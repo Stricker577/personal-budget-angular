@@ -7,9 +7,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-
  html {
-    line-height: 1.15; /* 1 */
+    line-height: 1.15%; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
   
@@ -215,10 +214,10 @@
    * Restore the focus styles unset by the previous rule.
    */
   
-  button:-moz-focusring,
-  [type="button"]:-moz-focusring,
-  [type="reset"]:-moz-focusring,
-  [type="submit"]:-moz-focusring {
+  button:-moz-focusing,
+  [type="button"]:-moz-focusing,
+  [type="reset"]:-moz-focusing,
+  [type="submit"]:-moz-focusing {
     outline: 1px dotted ButtonText;
   }
   
